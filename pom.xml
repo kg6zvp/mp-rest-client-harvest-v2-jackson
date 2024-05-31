@@ -15,7 +15,7 @@
 
 	<groupId>es.eisig.mp-rest</groupId>
 	<artifactId>harvest-api-v2-client-jackson</artifactId>
-	<version>2024.05.30-SNAPSHOT</version>
+	<version>2024.05.31-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>HarvestApp API v2 Client</name>
 	<description>MicroProfile Rest Client for Harvest API v2 with Jackson annotations</description>

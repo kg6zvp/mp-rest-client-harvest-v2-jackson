@@ -35,11 +35,11 @@ public class ParamConverterProvider implements jakarta.ws.rs.ext.ParamConverterP
 	public static class LocalDateConverter implements ParamConverter<LocalDate> {
 		@Override
 		public LocalDate fromString(String value) {
-			return LocalDate.parse(value, DateTimeFormatter.ISO_DATE_TIME);
+			return LocalDate.parse(value, DateTimeFormatter.ISO_DATE);
 		}
 		@Override
 		public String toString(LocalDate value) {
-			return DateTimeFormatter.ISO_DATE_TIME.format(value);
+			return DateTimeFormatter.ISO_DATE.format(value);
 		}
 	}
 }
