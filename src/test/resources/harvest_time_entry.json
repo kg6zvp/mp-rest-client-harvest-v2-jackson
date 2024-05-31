@@ -1,0 +1,61 @@
+{
+	"id": 2374268542,
+	"spent_date": "2024-05-29",
+	"hours": 0.31,
+	"hours_without_timer": 0.0,
+	"rounded_hours": 0.31,
+	"notes": "",
+	"is_locked": false,
+	"locked_reason": null,
+	"is_closed": false,
+	"is_billed": false,
+	"timer_started_at": "2024-05-29T16:51:14Z",
+	"started_time": "10:51am",
+	"ended_time": null,
+	"is_running": true,
+	"billable": true,
+	"budgeted": true,
+	"billable_rate": null,
+	"cost_rate": null,
+	"created_at": "2024-05-29T16:51:14Z",
+	"updated_at": "2024-05-29T16:51:14Z",
+	"user": {
+		"id": 442442,
+		"name": "Wiley Coyote"
+	},
+	"client": {
+		"id": 351351,
+		"name": "Acme",
+		"currency": "USD"
+	},
+	"project": {
+		"id": 302302,
+		"name": "2024 Finally Gonna Catch the Roadrunner",
+		"code": null
+	},
+	"task": {
+		"id": 460460,
+		"name": "Building Rockets"
+	},
+	"user_assignment": {
+		"id": 281281281,
+		"is_project_manager": false,
+		"is_active": true,
+		"use_default_rates": false,
+		"budget": null,
+		"created_at": "2024-01-01T10:00:00Z",
+		"updated_at": "2024-01-01T10:00:00Z",
+		"hourly_rate": null
+	},
+	"task_assignment": {
+		"id": 429429429,
+		"billable": true,
+		"is_active": true,
+		"created_at": "2024-01-02T10:15:00Z",
+		"updated_at": "2024-01-02T10:15:00Z",
+		"hourly_rate": null,
+		"budget": null
+	},
+	"invoice": null,
+	"external_reference": null
+}
